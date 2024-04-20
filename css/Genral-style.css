@@ -1,0 +1,103 @@
+/* General properties */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
+.bold {
+  font-weight: bolder;
+}
+.pad-x {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.pad-x2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pad-y {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.pad-y2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.mar-x {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.mar-x2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mar-y {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.line {
+  background-color: rgb(61, 0, 160);
+  width: 100px;
+  height: 5px;
+}
+
+/* Texts */
+.txt-1 {
+  font-size: 20px;
+}
+.primary-heading {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+.secondary-heading {
+  font-size: 25px;
+}
+/* Buttons */
+.btn-1 {
+  text-transform: uppercase;
+  padding: 5px;
+}
+.btn-2 {
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 13px 31px;
+  margin: 21px 20px 0px 0px;
+  text-align: center;
+}
+.btn-3 {
+  width: 300px;
+  padding: 8px 0px;
+  text-align: center;
+  margin: 8px 0px;
+}
+
+/* colors */
+.white {
+  color: white;
+}
+.blue {
+  color: rgb(24, 0, 63);
+}
+.purple {
+  color: rgb(61, 0, 160);
+}
+/* Backgroud Colors */
+
+.bg-grey {
+  background-color: rgb(216, 216, 216);
+}
+.bg-purple {
+  background-color: rgb(61, 0, 160);
+}
+.bg-blue {
+  background-color: rgb(24, 0, 63);
+}
+.bg-white {
+  background-color: white;
+}
+.bg-darkgray {
+  background-color: rgba(65, 65, 65, 0.8);
+}
